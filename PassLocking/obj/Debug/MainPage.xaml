@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="PassLocking.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PassLocking"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFFFF9C4">
+    	<TextBox x:Name="Display" HorizontalAlignment="Left" Margin="449,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="94" Width="432" FontSize="64" IsReadOnly="True" Foreground="#FF4CAF50" Background="#FFE0E0E0"/>
+    	<Button x:ConnectionId='1' x:Name="B1" Content="1&#xD;&#xA;1" HorizontalAlignment="Left" Margin="446,222,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='2' x:Name="B2" Content="2" HorizontalAlignment="Left" Margin="609,222,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='3' x:Name="B3" Content="3&#xA;1" HorizontalAlignment="Left" Margin="763,222,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='4' x:Name="B4" Content="4" HorizontalAlignment="Left" Margin="446,332,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='5' x:Name="B5" Content="5" HorizontalAlignment="Left" Margin="609,332,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='6' x:Name="B6" Content="6" HorizontalAlignment="Left" Margin="763,332,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='7' x:Name="B7" Content="7&#xA;1" HorizontalAlignment="Left" Margin="446,444,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='8' x:Name="B8" Content="8" HorizontalAlignment="Left" Margin="609,444,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='9' x:Name="B9" Content="9&#xA;1" HorizontalAlignment="Left" Margin="763,444,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='10' x:Name="B1_Copy2" Content="*" HorizontalAlignment="Left" Margin="446,555,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                       />
+    	<Button x:ConnectionId='11' x:Name="B0" Content="0" HorizontalAlignment="Left" Margin="609,555,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                 />
+    	<Button x:ConnectionId='12' x:Name="B_Enter" Content="#" HorizontalAlignment="Left" Margin="763,555,0,0" VerticalAlignment="Top" Height="86" Width="121" FontSize="48" Background="#FFB3E5FC" Foreground="#FF03A9F4" BorderBrush="#FF03A9F4"                      />
+    	<Path x:ConnectionId='13' Data="M194.03,192.537 C185.075,291.044 262.687,437.314 217.91,268.657 C173.134,100 255.223,297.015 255.223,297.015 L235.82,356.717 L207.463,388.061 C207.463,388.061 207.463,413.434 211.94,414.927 C216.418,416.42 244.775,444.778 244.775,444.778 C244.775,444.778 276.118,449.256 277.611,441.793 C279.104,434.33 308.954,392.539 308.954,392.539 C308.954,392.539 323.879,337.315 323.879,332.837 C323.879,328.359 320.894,276.12 320.894,276.12 L297.013,216.418 L282.088,183.582 L240.298,155.224 L207.463,150.746 L153.732,161.194 C153.732,161.194 143.285,195.523 143.285,200 C143.285,204.478 132.837,243.284 132.837,243.284 L135.822,298.509 L158.21,302.986 L174.627,292.538 z" Fill="#FFFFF9C4" HorizontalAlignment="Left" Height="296.362" Margin="120.396,195.022,0,0" Stretch="Fill" Stroke="#FFFFF9C4" UseLayoutRounding="False" VerticalAlignment="Top" Width="192.045"                     />
+
+    </Grid>
+</Page>
+

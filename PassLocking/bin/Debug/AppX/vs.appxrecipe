@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DREAM-NB</Machine>
+    <WindowsUser>dream</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>67bcfeeb-0b5c-46c5-9eec-4eb31ebf2ca4</PackageIdentityName>
+    <IntermediateOutputPath>F:\Project\PassLocking\PassLocking\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>60146F4FC607C6B4E770162DCF5E08E5DEE51B6092D23577A222A175C079C6D1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>67bcfeeb-0b5c-46c5-9eec-4eb31ebf2ca4_1.0.0.0_neutral__ys1926k3qr8xm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>67bcfeeb-0b5c-46c5-9eec-4eb31ebf2ca4_ys1926k3qr8xm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>67bcfeeb-0b5c-46c5-9eec-4eb31ebf2ca4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=dream</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\Project\PassLocking\PassLocking\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-03T12:10:28.802</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\bin\Debug\PassLocking.exe">
+      <PackagePath>PassLocking.exe</PackagePath>
+      <Modified>2015-08-08T16:54:15.261</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-08-03T12:10:26.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-08-08T16:54:14.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\bin\Debug\PassLocking.xr.xml">
+      <PackagePath>PassLocking.xr.xml</PackagePath>
+      <Modified>2015-08-08T16:53:13.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\Project\PassLocking\PassLocking\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-08-03T12:10:27.700</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
